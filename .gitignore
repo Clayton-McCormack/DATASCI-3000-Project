@@ -28,11 +28,10 @@ venv/
 # ---------------------------
 
 # Raw data
-data/raw/
+
 data/raw/*
 
 # Processed data
-data/processed/
 data/processed/*
 
 # Any CSV, Excel, or other data dumped in notebooks
