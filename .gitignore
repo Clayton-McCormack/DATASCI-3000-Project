@@ -1,0 +1,80 @@
+# ---------------------------
+#   PYTHON / JUPYTER
+# ---------------------------
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+.env*/
+.venv/
+.envrc
+
+# Pyenv and other version managers
+.python-version
+
+# VSCode settings
+.vscode/
+
+# ---------------------------
+#   DATA FILES (IMPORTANT!)
+# ---------------------------
+
+# Raw data
+data/raw/
+data/raw/*
+
+# Processed data
+data/processed/
+data/processed/*
+
+# Any CSV, Excel, or other data dumped in notebooks
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.parquet
+
+# In case you accidentally export figures
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# ---------------------------
+#   MACOS SYSTEM FILES
+# ---------------------------
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ---------------------------
+#   BACKUP / TEMP FILES
+# ---------------------------
+
+*.bak
+*.tmp
+*.temp
+*.log
+
+# ---------------------------
+#   CONFIG (Optional)
+# ---------------------------
+
+# If you use Jupyter Lab workspaces
+.jupyter/
+
+# If using PyCharm
+.idea/
+
+# If using mypy
+.mypy_cache/
